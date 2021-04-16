@@ -1,0 +1,8 @@
+@import "https://raw.githubusercontent.com/arcy-at/arcy-at.github.io/main/assets/bootstrap/css/bootstrap.css";
+* {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+h1 {
+  background-color: aqua;
+}
