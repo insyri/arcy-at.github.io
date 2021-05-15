@@ -5,7 +5,7 @@
     <meta content="bot" property="og:title" />
     <meta content="please" property="og:description" />
     <meta
-      content="https://discord.com/oauth2/authorize?client_id=760143615124439040&scope=guilds%20connections%20identify%20bot%20applications.commands&permissions=543808&redirect_uri=https%3A%2F%2Farcy-at.github.io%2F&response_type=code"
+      content="https://discord.com/api/oauth2/authorize?client_id=760143615124439040&permissions=8&scope=bot%20applications.commands%20identify%20email%20connections%20guilds"
       property="og:url"
     />
     <meta
@@ -14,12 +14,8 @@
     />
     <meta content="#2f3136" data-react-helmet="true" name="theme-color" />
     <script>
-      setTimeout(
-        () =>
-          window.location.replace(
-            "https://discord.com/oauth2/authorize?client_id=760143615124439040&scope=guilds%20connections%20identify%20bot%20applications.commands&permissions=543808&redirect_uri=https%3A%2F%2Farcy-at.github.io%2F&response_type=code"
-          ),
-        500
+      window.location.replace(
+        "https://discord.com/api/oauth2/authorize?client_id=760143615124439040&permissions=8&scope=bot%20applications.commands%20identify%20email%20connections%20guilds"
       );
     </script>
   </head>
