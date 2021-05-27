@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zero Width Space</title>
     <script>
-      const copyText = document.querySelector("#zws");
-      copyText.select();
-      document.execCommand("copy");
-      window.close();
+      navigator.clipboard.writeText("\u200b");
     </script>
   </head>
   <body>
-    <div id="zws">​</div>
+    <pre>ok copied</pre>
   </body>
 </html>
